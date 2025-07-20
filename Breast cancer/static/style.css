@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e9f0f8, #f7fafc, #dbe9f4);
+    padding: 40px;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background: linear-gradient(145deg, #ffffff, #f0f5fa);
+    padding: 30px 40px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    border: 1px solid #c3d0e8;
+}
+h1 {
+    text-align: center;
+    color: #2d4c62;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 2px rgba(45,76,98,0.3);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #3a5068;
+    letter-spacing: 0.03em;
+}
+input[type="number"] {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1.8px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(120deg, #f5f8fc, #d9e2ec);
+    box-shadow: inset 2px 2px 5px #c0cee7, inset -2px -2px 5px #f9fdff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input[type="number"]:focus {
+    border-color: #627d98;
+    box-shadow: 0 0 8px 1px #7898b3;
+    outline: none;
+    background: #f0f5fb;
+}
+input[type="submit"] {
+    margin-top: 25px;
+    padding: 14px;
+    background: linear-gradient(120deg, #2d4c62, #466b8a);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(45,76,98,0.4);
+    transition: background 0.3s ease;
+}
+input[type="submit"]:hover {
+    background: linear-gradient(120deg, #1e3751, #3a5a7a);
+}
+.result {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #2a7a2a;
+    font-weight: 700;
+    text-shadow: 0 1px 2px #a3d3a3;
+}
+.error {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b44242;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 0 1px 1px #d9a3a3;
+}
